@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#F9A825"
+    >
+
+
+
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="match_parent"
+        android:id= "@+id/t_id"
+        android:layout_alignParentLeft= "true"
+        android:text="ID"
+        android:gravity="center"
+        android:textAppearance="?android:textAppearanceLarge" />
+
+    <TextView
+        android:layout_width="90dp"
+        android:layout_height="match_parent"
+        android:id= "@+id/t_surname"
+        android:layout_toRightOf= "@+id/t_id"
+        android:text="Surname"
+        android:gravity="center"
+        android:textAppearance="?android:textAppearanceLarge" />
+
+
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="match_parent"
+        android:id= "@+id/t_phone"
+        android:layout_toRightOf= "@+id/t_id"
+        android:text="Phone"
+        android:gravity="center"
+        android:textAppearance="?android:textAppearanceLarge" />
+
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="match_parent"
+        android:id= "@+id/t_email"
+        android:layout_toRightOf= "@+id/t_phone"
+        android:text="Email"
+        android:gravity="center"
+        android:textAppearance="?android:textAppearanceLarge" />
+
+
+
+</LinearLayout>
